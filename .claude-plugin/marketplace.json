@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "setup-statusline",
-      "source": ".",
+      "source": "./plugins/setup-statusline",
       "description": "設定 Claude Code 自訂狀態列，顯示 Context Window 剩餘量、API 額度、模型名稱、Git 分支",
       "version": "1.0.0",
       "author": {
