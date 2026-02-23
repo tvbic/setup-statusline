@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "setup-statusline",
+  "owner": {
+    "name": "tvbic"
+  },
+  "metadata": {
+    "description": "Claude Code 自訂狀態列，顯示 Context Window 剩餘量、API 額度、模型名稱、Git 分支",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "setup-statusline",
+      "source": ".",
+      "description": "設定 Claude Code 自訂狀態列，顯示 Context Window 剩餘量、API 額度、模型名稱、Git 分支",
+      "version": "1.0.0",
+      "author": {
+        "name": "tvbic"
+      },
+      "license": "MIT",
+      "keywords": ["statusline", "status-bar", "context-window", "rate-limit"]
+    }
+  ]
+}
